@@ -1,0 +1,12 @@
+li {
+    list-style-type: none;
+}
+a:visited {
+    color :purple;
+}
+a:active {
+    color: red;
+}
+a:hover {
+    color:red;
+}
