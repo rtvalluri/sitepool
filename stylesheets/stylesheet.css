@@ -517,8 +517,8 @@ aside#sidebar p.repo-owner a {
 }
 
 a.button {
-  width: 134px;
-  height: 58px;
+  width: 205px;
+  height: 80px;
   padding-top: 22px;
   padding-left: 68px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
@@ -538,8 +538,8 @@ header a.button {
 }
 aside a.button {
   display: block;
-  width: 138px;
-  padding-left: 64px;
+  width: 205px;
+  padding-left: 80px;
   margin-bottom: 20px;
   font-size: 21px;
   background: transparent url(../images/download-button.png) 0 0 no-repeat;
@@ -622,12 +622,12 @@ form {
   letter-spacing: -1px;
 }
 
-#main-content h1:before {
+/*#main-content h1:before {
   padding-right: 0.3em;
   margin-left: -0.9em;
   color: #9ddcff;
   content: "/";
-}
+}*/
 
 #main-content h2 {
   margin-bottom: 8px;
@@ -637,12 +637,12 @@ form {
   color: #474747;
   text-indent: 4px;
 }
-#main-content h2:before {
+/*#main-content h2:before {
   padding-right: 0.3em;
   margin-left: -1.5em;
   content: "//";
   color: #9ddcff;
-}
+}*/
 
 #main-content h3 {
   margin-top: 24px;
@@ -654,12 +654,12 @@ form {
   text-indent: 3px;
 }
 
-#main-content h3:before {
+/*#main-content h3:before {
   padding-right: 0.3em;
   margin-left: -2em;
   content: "///";
   color: #9ddcff;
-}
+}*/
 
 #main-content h4 {
   margin-bottom: 8px;
@@ -670,12 +670,12 @@ form {
   text-indent: 3px;
 }
 
-h4:before {
+/*h4:before {
   padding-right: 0.3em;
   margin-left: -2.8em;
   content: "////";
   color: #9ddcff;
-}
+}*/
 
 #main-content h5 {
   margin-bottom: 8px;
@@ -684,12 +684,12 @@ h4:before {
   color: #474747;
   text-indent: 3px;
 }
-h5:before {
+/*h5:before {
   padding-right: 0.3em;
   margin-left: -3.2em;
   content: "/////";
   color: #9ddcff;
-}
+}*/
 
 #main-content h6 {
   margin-bottom: 8px;
@@ -698,12 +698,12 @@ h5:before {
   color: #474747;
   text-indent: 3px;
 }
-h6:before {
+/*h6:before {
   padding-right: 0.3em;
   margin-left: -3.7em;
   content: "//////";
   color: #9ddcff;
-}
+}*/
 
 p {
   margin-bottom: 20px;
