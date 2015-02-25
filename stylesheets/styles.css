@@ -1,13 +1,61 @@
-li {
-    list-style-type: none;
+::-webkit-scrollbar { display: none; }
+
+a:hover { text-decoration: none; }
+
+.btn-hvr:hover { color: white; font-weight: bold;}
+
+li { list-style-type: none; }
+
+.brand { color: white; text-decoration: none; }
+
+.brand:hover { font-weight: normal;}
+
+#info-btn { position: absolute; top: 0; right: 0; margin-top: 12px; padding:15px 15px; border-radius: 5px; background-color: white; cursor: pointer; color: black; }
+
+#info-btn:hover {font-weight: bold; font-size: 14px; color: black; }
+
+#about-sitepool { 
+	height: 0;
+	overflow: auto;
+	background: #f5f5f5;
+	border-radius: 10px;
+	transition: height ease-in-out 500ms; /* css3 transition */
+    -o-transition: height ease-in-out 500ms;
+    -moz-transition: height ease-in-out 500ms;
+    -webkit-transition: height ease-in-out 500ms; /*chrome n safari*/
 }
 
-/*.inner a {
-	width: 205px;
-	height : 80px;
+#github-btn {
+    height: auto;
+	padding: 5px 10px;
+	margin-top: 15px;
+	font-size: 20px;
+	line-height: 1;
+	color: #ffffff;
+	text-align: center;
+	background-color: #3C88E9;
+	background-image: none;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px; }
+
+#about-sitepool p { margin: 20px 10px; } 
+
+.flow { height: 150px !important; }
+
+#hide { top:0; float:right; margin: 10px;}
+
+/*Media Queries*/
+@media screen and (max-width:959px){
+	#info-btn{
+		margin-top: 10px;
+		padding: 12px 15px;
+	}
 }
 
-aside a {
-	width: 205px;
-	height : 80px;
-}*/
+@media screen and (max-width:767px){
+	#info-btn{
+		margin-top: 10px;
+		padding: 6px 10px;
+	}
+}
