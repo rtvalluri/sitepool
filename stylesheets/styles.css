@@ -41,7 +41,9 @@ li { list-style-type: none; }
 
 #about-sitepool p { margin: 20px 10px; } 
 
-.flow { height: 150px !important; }
+#about-sitepool h5 { text-align: center; }
+
+.flow { height: 180px !important; }
 
 #hide { top:0; float:right; margin: 10px;}
 
