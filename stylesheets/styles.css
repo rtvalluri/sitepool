@@ -1,6 +1,6 @@
 ::-webkit-scrollbar { display: none; }
 
-a:hover { text-decoration: none; }
+a { text-decoration: none !important; }
 
 .btn-hvr:hover { color: white; font-weight: bold;}
 
