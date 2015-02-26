@@ -39,13 +39,13 @@ li { list-style-type: none; }
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px; }
 
-#about-sitepool p { margin: 20px 10px; } 
+#about-sitepool p { margin: 30px 10px 20px; } 
 
 #about-sitepool h5 { text-align: center; }
 
 .flow { height: 200px !important; }
 
-#hide { top:0; float:right; margin: 10px;}
+#hide { top:0; float:right; margin:15px 10px;}
 
 /*Media Queries*/
 @media screen and (max-width:959px){
@@ -53,6 +53,7 @@ li { list-style-type: none; }
 		margin-top: 15px;
 		padding: 12px 15px;
 	}
+	#about-sitepool p{ margin: 25px 10px 20px; } 
 }
 
 @media screen and (max-width:767px){
@@ -60,4 +61,5 @@ li { list-style-type: none; }
 		margin-top: 13px;
 		padding: 6px 10px;
 	}
+	#about-sitepool p { margin: 20px 5px 20px; } 
 }
