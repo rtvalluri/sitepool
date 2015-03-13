@@ -54,9 +54,8 @@ li { list-style-type: none; }
 		margin-top: 13px;
 		padding: 6px 10px;
 	}
-	#about-sitepool p { margin: 20px 5px 20px; } 
+	#about-sitepool p { margin: 20px 5px 20px; }
+	.panel-heading a {padding: 0 20px 0 0;} 
 }
-@media screen and (max-width:330px){
-	.panel-heading a {padding: 0 20px 0 0;}
-}
+
 
