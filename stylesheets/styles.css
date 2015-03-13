@@ -38,7 +38,7 @@ li { list-style-type: none; }
 
 #hide { top:0; float:right; margin:15px 10px;}
 
-.panel-heading a {padding: 0 200px 0 0;}
+.panel-heading a {padding: 0 300px 0 0;}
 /*Media Queries*/
 @media screen and (max-width:959px){
 	#info-btn{
@@ -55,3 +55,7 @@ li { list-style-type: none; }
 	}
 	#about-sitepool p { margin: 20px 5px 20px; } 
 }
+@media screen and (max-width:320px){
+	.panel-heading a {padding: 0 100px 0 0;}
+}
+
