@@ -42,7 +42,7 @@ li { list-style-type: none; }
 
 .panel-heading a {display: block; line-height: 50px;}
 
-.panel-body ul{ margin: 10px 0px;}
+.panel-body ul{ margin: 10px 0px !important;}
 
 /*Media Queries*/
 @media screen and (max-width:959px){
