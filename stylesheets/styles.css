@@ -38,7 +38,9 @@ li { list-style-type: none; }
 
 #hide { top:0; float:right; margin:15px 10px;}
 
-.panel-heading a {padding: 0 300px 0 0;}
+.panel-heading{ padding: 0px 0px 0px 15px; height: 50px;}
+
+.panel-heading a {display: block; line-height: 50px;}
 
 /*Media Queries*/
 @media screen and (max-width:959px){
