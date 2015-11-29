@@ -1,0 +1,65 @@
+::-webkit-scrollbar { display: none; }
+
+a { text-decoration: none !important; }
+
+.btn-hvr:hover { color: white; font-weight: bold;}
+
+li { list-style-type: none; }
+
+.brand { color: white; text-decoration: none; }
+
+.brand:hover { font-weight: normal;}
+
+#info-btn { position: absolute; top: 0; right: 0; margin-top: 19px; padding:15px 15px; border-radius: 5px; background-color: white; cursor: pointer; color: black; }
+
+#info-btn:hover { font-weight: bold; font-size: 14px; color: black; }
+
+#about-sitepool{ background: #f5f5f5;border-radius: 10px; }
+
+#github-btn {
+    height: auto;
+	padding: 10px 10px;
+	margin-top: 15px;
+	font-size: 20px;
+	line-height: 1;
+	color: #ffffff;
+	text-align: center;
+	background-color: #3C88E9;
+	background-image: none;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px; }
+
+#about-sitepool p { margin: 30px 10px 20px; } 
+
+#about-sitepool h5 { text-align: center; }
+
+.flow { height: 200px !important; }
+
+#hide { top:0; float:right; margin:15px 10px;}
+
+.panel-heading{ padding: 0px 0px 0px 15px; height: 50px;}
+
+.panel-heading a {display: block; line-height: 50px;}
+
+.panel-body ul{ margin: 10px 0px !important;}
+
+/*Media Queries*/
+@media screen and (max-width:959px){
+	#info-btn{
+		margin-top: 15px;
+		padding: 12px 15px;
+	}
+	#about-sitepool p{ margin: 25px 10px 20px; } 
+}
+
+@media screen and (max-width:767px){
+	#info-btn{
+		margin-top: 13px;
+		padding: 6px 10px;
+	}
+	#about-sitepool p { margin: 20px 5px 20px; }
+	.panel-heading a {padding: 0 20px 0 0;} 
+}
+
+
