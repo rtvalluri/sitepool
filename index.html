@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
   <head>
@@ -437,3 +438,95 @@
     </script>
   </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en" ng-app="poolApp">
+
+<head>
+    <title>Sitepool</title>
+    <meta charset="utf-8" />
+    <!--[if lt IE 9]>
+        <script src="http://htmlshim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="sitepool rtvalluri ravitejavalluri ravi raviteja rtv valluri html css js angularjs google list listofwebsites websites technologies learning ruby python java c selectors styles tags html5 css3 d3 tutorials learning technologies resources">
+    <meta name="author" content="rtvalluri raviteja valluri sanasafoora safoora sana">
+    <meta name="description" content="Collection of sites for learning various technologies">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="canonical" href="http://rtvalluri.github.io/sitepool/">
+    <script src="js/angular.min.js"></script>
+    <script src="js/poolapp.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" href="octicons/octicons.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Sniglet' rel='stylesheet' type='text/css'>    
+    <link rel="stylesheet" type="text/css" href="css/poolapp.css">
+</head>
+
+<body>
+    <article>
+        <header class="cf">
+            <section class="wrapper">
+                <h1 id="title" class="title">Sitepool</h1>
+                <aside><a href="https://github.com/rtvalluri/sitepool" class="github" title="view on github"><span class="mega-octicon octicon-mark-github"></a></span>
+                </aside>
+            </section>
+        </header>
+        <section class="wrapper main cf">
+            <noscript>
+                <p style="text-align: center; color: red; font-size:20px; margin-top:50px;">Please enable/un-block scripts in your browser</p>
+                <style type="text/css">
+                    .no-results,
+                    .block,
+                    #search,
+                    footer,
+                    .desc {
+                        display: none;
+                    }
+                </style>
+            </noscript>
+            <section class="m-desc-wrapper">
+                <section class="desc" ng-class="visible?'expand':''">
+                    <h3 ng-click="visible = !visible" class="block-title">About Sitepool<span class="octicon octicon-chevron-down" ng-class="visible?'up':'down'"></span></h3>
+                    <p>Sitepool is quick list of websites for different technologies,collected from internet/various sources.</p>
+                </section>
+            </section>
+            <section ng-controller="MainController" class="wrapper content">
+
+                <input placeholder="Search here something like : html , css, javascript..etc" ng-model="search" id="search">
+                <section ng-repeat="block in poolbase | filter:searchFilter as list" class="block wow bounceInUp" ng-show="true">
+                    <h3 class="block-title" title="{{block.title}}">{{ block.title }}</h3>
+                    <ul>
+                        <li ng-repeat="link in block.links"><a href="{{ link.href }}" target="_blank" title="{{link.name}}">{{ link.name }}</a><span class="plink"> - {{link.href}}</span></li>
+                    </ul>
+                </section>
+                <p ng-show="!list.length" class="no-results">No results found!</p>
+            </section>
+
+            <aside class="desc-wrapper">
+                <section class="desc">
+                    <h3 class="block-title">About Sitepool</h3>
+                    <p>Sitepool is quick list of websites for different technologies,collected from internet/various sources.</p>
+                </section>
+            </aside>
+
+        </section>
+        <footer>
+            <p>Resources collection by <a href="http://ravitejavalluri.com" target="_blank">rtvalluri</a> &amp; <a href="https://github.com/safoora" target="_blank">sana</a></p>
+            <p>Developed by <a href="http://ravitejavalluri.com" target="_blank">rtvalluri</a> using <a href="http://mynameismatthieu.com/WOW/" target="_blank">wow.js</a>, <a href="http://daneden.github.io/animate.css/" target="_blank">animate.css</a>, <a href="https://angularjs.org/" target="_blank">angularjs</a> and HTML5/CSS3</p>
+        </footer>
+    </article>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-60220843-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</body>
+
+</html>
+>>>>>>> gh-pages
