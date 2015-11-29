@@ -1,9 +1,0 @@
-$(document).ready(function(){
-	$("#about-sitepool").hide();
-    $("#info-btn").click(function(){
-		$("#about-sitepool").show('slow');
-    });
-    $("#hide").click(function(){
-        $("#about-sitepool").hide('slow');
-    });
-});
