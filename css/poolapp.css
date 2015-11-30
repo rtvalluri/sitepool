@@ -164,6 +164,10 @@ li a {
     width: 28%;
 }
 
+.desc-wrapper a {
+    font-weight: normal;
+}
+
 .desc-wrapper section,
 .m-desc-wrapper section {
     border: 1px solid #3761A9;
