@@ -222,7 +222,7 @@ app.controller("MainController", function($scope) {
         tags: "interpreted",
         links: [ {
             name: "Learn python the hard way",
-            href: ""
+            href: "http://learnpythonthehardway.org/book/"
         }, {
             name: "Basic python programs",
             href: "http://www.programiz.com/python-programming/examples"
@@ -232,7 +232,7 @@ app.controller("MainController", function($scope) {
         tags: "interpreted",
         links: [ {
             name: "Learn ruby the hard way",
-            href: ""
+            href: "http://learnrubythehardway.org/book/"
         }, {
             name: "Interactive way to learn ruby",
             href: "http://tryruby.org/levels/1/challenges/0"
