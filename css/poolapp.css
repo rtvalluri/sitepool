@@ -180,6 +180,7 @@ li a {
     padding: 5px;
     text-align: center;
     color: #1348A2;
+    word-break: break-word;
 }
 
 .m-desc-wrapper {
