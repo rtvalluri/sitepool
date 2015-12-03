@@ -294,6 +294,7 @@ footer a {
     .content,
     .wrapper,
     .desc-wrapper {
+        word-break: break-word;
         width: 99%;
         margin: 10px auto;
         font-size: 13px;
