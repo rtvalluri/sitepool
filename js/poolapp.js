@@ -57,11 +57,11 @@ app.controller("MainController", function($scope) {
             name: "Learn HTML",
             href: "http://learn.shayhowe.com/html-css/getting-to-know-html/"
         }, {
-            name: "HTML5-Canvas tutorial",
-            href: "http://www.html5canvastutorials.com/"
-        }, {
             name: "HTML5 in 5 mins",
             href: "https://msdn.microsoft.com/en-us/hh549253.aspx"
+        }, {
+            name: "HTML5-Canvas tutorial",
+            href: "http://www.html5canvastutorials.com/"
         }, {
             name: "HTML5 + your browser compatibility",
             href: "https://html5test.com/"
