@@ -264,6 +264,16 @@ app.controller("MainController", function($scope) {
             href: "http://tutorialspoint.com/"
         } ]
     }, {
+        title: "Magazines for Web-development",
+        tags: "web magazines smashing alistapart",
+        links: [ {
+            name: "Smashing magazine",
+            href: "http://www.smashingmagazine.com/"
+        }, {
+            name: "Alistapart",
+            href: "http://alistapart.com/topics"
+        } ]
+    }, {
         title: "Website Building",
         tags: "websites",
         links: [ {
