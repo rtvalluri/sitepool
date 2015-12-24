@@ -183,6 +183,9 @@ app.controller("MainController", function($scope) {
         title: "Regular Expressions",
         tags: "regex",
         links: [ {
+            name: "Regexone - learn interactively",
+            href: "http://regexone.com/"
+        }, {
             name: "Online Regex builder",
             href: "http://regexr.com/"
         } ]
