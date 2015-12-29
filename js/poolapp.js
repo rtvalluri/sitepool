@@ -48,7 +48,7 @@ app.controller("MainController", function($scope) {
             href: "http://www.makeuseof.com/tag/google-power-user/"
         } ]
     },{
-        title: "Technical Interview Questions",
+        title: "Technical Interview Q&A",
         tags: "interviews questions tr technical awesome",
         links: [ {
             name: "Awesome Interviews",
