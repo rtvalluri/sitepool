@@ -47,6 +47,13 @@ app.controller("MainController", function($scope) {
             name: "Google efficiently",
             href: "http://www.makeuseof.com/tag/google-power-user/"
         } ]
+    },{
+        title: "Technical Interview Questions",
+        tags: "interviews questions tr technical awesome",
+        links: [ {
+            name: "Awesome Interviews",
+            href: "https://github.com/MaximAbramchuck/awesome-interviews"
+        } ]
     }, {
         title: "Html/Html5",
         tags: "markup",
