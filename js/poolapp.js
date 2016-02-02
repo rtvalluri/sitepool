@@ -168,6 +168,9 @@ app.controller("MainController", function($scope) {
         }, {
             name: "Javascript Char codes",
             href: "http://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes"
+        }, {
+            name: "jsPerf - compare js snippets ",
+            href: "https://jsperf.com/"
         } ]
     }, {
         title: "Javascript Libraries",
