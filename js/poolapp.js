@@ -264,6 +264,9 @@ app.controller("MainController", function($scope) {
         title: "Online Tutorials",
         tags: "free online all science technology",
         links: [ {
+            name: "Scotch",
+            href: "https://scotch.io/"
+        }, {
             name: "Codecademy",
             href: "http://codecademy.com/"
         }, {
