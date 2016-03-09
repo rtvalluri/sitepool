@@ -67,6 +67,9 @@ app.controller("MainController", function($scope) {
             name: "HTML5 in 5 mins",
             href: "https://msdn.microsoft.com/en-us/hh549253.aspx"
         }, {
+            name: "More about HTML5",
+            href: "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
+        }, {
             name: "HTML5-Canvas tutorial",
             href: "http://www.html5canvastutorials.com/"
         }, {
