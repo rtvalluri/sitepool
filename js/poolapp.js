@@ -125,7 +125,7 @@ app.controller("MainController", function($scope) {
         }, {
             name: "JS concepts",
             href: "http://bguiz.github.io/js-standards/intro/"
-        } {
+        }, {
             name: "Interactive way to learn JS",
             href: "http://www.codecademy.com/en/tracks/javascript"
         }, {
