@@ -118,11 +118,14 @@ app.controller("MainController", function($scope) {
         } ]
     }, {
         title: "JavaScript",
-        tags: "js",
+        tags: "js,ecmascript,es5",
         links: [ {
             name: "All about JavaScript",
             href: "http://jstherightway.org/"
         }, {
+            name: "JS concepts",
+            href: "http://bguiz.github.io/js-standards/intro/"
+        } {
             name: "Interactive way to learn JS",
             href: "http://www.codecademy.com/en/tracks/javascript"
         }, {
