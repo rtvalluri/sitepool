@@ -152,6 +152,12 @@ app.controller("MainController", function($scope) {
         title: "Javascript Frameworks",
         tags: "js",
         links: [ {
+            name: "AngularJS Guidelines",
+            href: "http://bguiz.github.io/js-standards/angularjs/single-responsibility/"
+        }, {
+            name: "Angular StyleGuide",
+            href: "https://github.com/johnpapa/angular-styleguide/tree/master/a1"
+        }, {
             name: "AngularJS in 60minutes",
             href: "http://fastandfluid.com/publicdownloads/AngularJSIn60MinutesIsh_DanWahlin_May2013.pdf"
         }, {
