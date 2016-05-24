@@ -149,8 +149,8 @@ app.controller("MainController", function($scope) {
             href: "http://try.jquery.com/"
         } ]
     }, {
-        title: "Javascript Frameworks",
-        tags: "js",
+        title: "AngularJS",
+        tags: "js,javascript frameworks,ajs",
         links: [ {
             name: "AngularJS Guidelines",
             href: "http://bguiz.github.io/js-standards/angularjs/single-responsibility/"
