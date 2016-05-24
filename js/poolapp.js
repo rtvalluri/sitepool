@@ -123,7 +123,7 @@ app.controller("MainController", function($scope) {
             name: "All about JavaScript",
             href: "http://jstherightway.org/"
         }, {
-            name: "JS concepts",
+            name: "JavaScript Standards",
             href: "http://bguiz.github.io/js-standards/intro/"
         }, {
             name: "Interactive way to learn JS",
