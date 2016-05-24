@@ -163,9 +163,6 @@ app.controller("MainController", function($scope) {
         }, {
             name: "AngularJS examples",
             href: "http://tutorialzine.com/2013/08/learn-angularjs-5-examples/"
-        }, {
-            name: "Best practices for building an angular app",
-            href: "https://github.com/johnpapa/angular-styleguide"
         } ]
     }, {
         title: "Regular Expressions",
