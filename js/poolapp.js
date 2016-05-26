@@ -54,7 +54,7 @@ app.controller("MainController", function($scope) {
         } ]
     }, {
         title: "Css/Css3",
-        tags: "",
+        tags: "flex,styling,layout",
         links: [ {
             name: "Learn CSS",
             href: "http://learn.shayhowe.com/html-css/getting-to-know-css/"
@@ -70,6 +70,9 @@ app.controller("MainController", function($scope) {
         }, {
             name: "Game on CSS selectors",
             href: "http://flukeout.github.io/"
+        }, {
+            name: "Game on CSS3 Flexbox",
+            href: "http://flexboxfroggy.com/"
         } ]
     }, {
         title: "Choosing color for text",
