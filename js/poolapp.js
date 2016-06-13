@@ -73,6 +73,9 @@ app.controller("MainController", function($scope) {
         }, {
             name: "Game on CSS3 Flexbox",
             href: "http://flexboxfroggy.com/"
+        }, {
+            name: "Link vs Import",
+            href: "https://www.stevesouders.com/blog/2009/04/09/dont-use-import/"
         } ]
     }, {
         title: "Choosing color for text",
