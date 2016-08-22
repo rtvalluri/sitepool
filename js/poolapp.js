@@ -135,6 +135,9 @@ app.controller("MainController", function($scope) {
             name: "Interactive way to learn JS",
             href: "http://www.codecademy.com/en/tracks/javascript"
         }, {
+            name: "JavaScript Styleguide",
+            href: "https://github.com/airbnb/javascript"
+        }, {
             name: "Learn Object oriented JavaScript",
             href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript"
         }, {
