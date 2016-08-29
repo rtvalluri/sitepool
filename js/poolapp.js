@@ -126,7 +126,7 @@ app.controller("MainController", function($scope) {
         title: "JavaScript",
         tags: "js,ecmascript,es5",
         links: [ {
-            name: "Essential JavaScript",
+            name: "Essential JavaScript Modules",
             href: "http://javascript.info/"
         }, {
             name: "All about JavaScript",
