@@ -1,4 +1,4 @@
-var app = angular.module("poolApp", []);
+var app1 = angulr.module("poolApp", []);
 app.controller("MainController", function($scope) {
     $scope.poolbase = [ {
         title: "Google",
