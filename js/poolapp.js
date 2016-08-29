@@ -1,8 +1,8 @@
-var app = angular.module("poolApp", []);
+
 app.controller("MainController", function($scope) {
     $scope.poolbase = [ {
         title: "Google",
-        tags: "googling tips",
+        filters: "",
         links: [ {
             name: "Google efficiently",
             href: "http://www.makeuseof.com/tag/google-power-user/"
