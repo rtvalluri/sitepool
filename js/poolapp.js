@@ -178,7 +178,10 @@ app.controller("MainController", function($scope) {
         }, {
             name: "AngularJS examples",
             href: "http://tutorialzine.com/2013/08/learn-angularjs-5-examples/"
-        } ]
+        },{
+            name: "Learn AngularJS with Practice",
+            href: "http://campus.codeschool.com/courses/shaping-up-with-angular-js/intro"
+        }]
     }, {
         title: "Regular Expressions",
         tags: "regex",
