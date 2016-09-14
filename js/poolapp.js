@@ -112,6 +112,9 @@ app.controller("MainController", function($scope) {
         links: [ {
             name: "Bootstrap",
             href: "http://getbootstrap.com/"
+        },{
+            name: "Bootstrap4",
+            href: "http://v4-alpha.getbootstrap.com/"
         }, {
             name: "Foundation",
             href: "http://foundation.zurb.com/"
@@ -175,7 +178,10 @@ app.controller("MainController", function($scope) {
         }, {
             name: "AngularJS examples",
             href: "http://tutorialzine.com/2013/08/learn-angularjs-5-examples/"
-        } ]
+        },{
+            name: "Learn AngularJS with Practice",
+            href: "http://campus.codeschool.com/courses/shaping-up-with-angular-js/intro"
+        }]
     }, {
         title: "Regular Expressions",
         tags: "regex",
