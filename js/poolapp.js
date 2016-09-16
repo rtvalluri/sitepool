@@ -291,15 +291,17 @@ app.controller("MainController", function($scope) {
         } ]
     }, {
         title: "Miscellaneous",
-        tags: "grunt",
+        tags: "grunt task-runner",
         links: [ {
             name: "Can I Use",
             href: "http://caniuse.com/"
         },{
             name: "Gulp for beginners",
+            tags: "gulp",
             href: "https://css-tricks.com/gulp-for-beginners/"
         }, {
             name: "Getting started with Grunt",
+            tags: "grunt",
             href: "https://scotch.io/tutorials/a-simple-guide-to-getting-started-with-grunt"
         }, {
             name: "Grunt-Smashing Magazine",
