@@ -296,6 +296,9 @@ app.controller("MainController", function($scope) {
             name: "Can I Use",
             href: "http://caniuse.com/"
         },{
+            name: "Gulp for beginners",
+            href: "https://css-tricks.com/gulp-for-beginners/"
+        }, {
             name: "Getting started with Grunt",
             href: "https://scotch.io/tutorials/a-simple-guide-to-getting-started-with-grunt"
         }, {
