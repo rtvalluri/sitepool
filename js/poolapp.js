@@ -291,7 +291,7 @@ app.controller("MainController", function($scope) {
         } ]
     }, {
         title: "Miscellaneous",
-        tags: "grunt task-runner",
+        tags: "grunt task-runner gulp ebooks canisue",
         links: [ {
             name: "Can I Use",
             href: "http://caniuse.com/"
