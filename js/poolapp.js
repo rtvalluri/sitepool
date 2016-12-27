@@ -255,7 +255,7 @@ app.controller("MainController", function($scope) {
         },{
             name: "Reference for Git commands",
             href: "http://gitref.org/"
-        }
+        } ]
     }, {
         title: "Online Tutorials",
         tags: "free online all science technology",
