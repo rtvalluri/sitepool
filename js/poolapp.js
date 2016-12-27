@@ -252,7 +252,10 @@ app.controller("MainController", function($scope) {
         links: [ {
             name: "Git in 15mins",
             href: "https://try.github.io"
-        } ]
+        },{
+            name: "Reference for Git commands",
+            href: "http://gitref.org/"
+        }
     }, {
         title: "Online Tutorials",
         tags: "free online all science technology",
