@@ -183,6 +183,13 @@ app.controller("MainController", function($scope) {
             href: "http://campus.codeschool.com/courses/shaping-up-with-angular-js/intro"
         }]
     }, {
+        title: "JS Unit Testing",
+        tags: "unit testing tdd bdd test cases",
+        links: [ {
+            name: "Unit Testing using Jasmine",
+            href: "http://bittersweetryan.github.io/jasmine-presentation/"
+        } ]
+    }, {
         title: "Regular Expressions",
         tags: "regex",
         links: [ {
