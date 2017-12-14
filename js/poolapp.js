@@ -164,6 +164,16 @@ app.controller("MainController", function($scope) {
             href: "http://try.jquery.com/"
         } ]
     }, {
+        title: "Angular5",
+        tags: "js,javascript frameworks,ajs,ng5,angular",
+        links: [ {
+            name: "Understanding Angular5 architecture",
+            href: "http://www.dotnetcurry.com/angularjs/1400/angular-application-architecture"
+        },{
+            name: "Building a basic app using Angular5",
+            href: "http://www.dotnetcurry.com/angularjs/1388/server-side-rendering-angular-nodejs"
+        }]
+    }, {
         title: "AngularJS",
         tags: "js,javascript frameworks,ajs",
         links: [ {
