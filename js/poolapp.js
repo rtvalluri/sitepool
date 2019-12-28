@@ -309,7 +309,14 @@ app.controller("MainController", function($scope) {
             name: "Website creation guidelines by Google",
             href: "https://support.google.com/webmasters/answer/6001102"
         } ]
-    }, {
+    },{
+        title: "Useful BootStrap widgets",
+        tags: "BootStrap Widgets",
+        links: [ {
+            name: "Bootstrap widgets Accordian,modals.progressbars etc.",
+            href: "http://foundation.zurb.com/sites/docs/v/5.5.3/"
+        } ]
+    },{
         title: "Miscellaneous",
         tags: "grunt task-runner gulp ebooks canisue",
         links: [ {
